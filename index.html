@@ -24,7 +24,7 @@
   <div class="row">
     <div class="col-lg text-center kotak">
       <button type="button" class="btn btn-lg btn-primary tombol py-4 px-5 shadow">Pencet disini!</button>
-      <h1 id="teks" class="d-none animate__animated animate__pulse">Aku sayang kamu <i class="fas fa-heart text-danger animate__animated animate__heartBeat animate__repeat-3"></i></h1>
+      <h1 id="teks" class="d-none animate__animated animate__pulse">Lopyuu byy, jangan marah lagi ya <i class="fas fa-heart text-danger animate__animated animate__heartBeat animate__repeat-3"></i></h1>
     </div>
   </div>
 
@@ -63,7 +63,7 @@ if (url.searchParams.get('by') != null) {
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Pacarku", "Aku ada pertanyaan nih buat kamu yangg", "question").then(function () {
+  Swal.fire("Hallo Ebebbb", "Aku ada pertanyaan nih buat kamu yangg", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
       Swal.fire("Awas aja kalau kamu bohong", "", "error").then(function () {
 
@@ -76,7 +76,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           showCancelButton: true,
           inputValidator: (value) => {
             if (!value) {
-              return 'Isi dulu dong beb'
+              return 'Isi dulu dong yang'
             } else {
               nama = value;
             }
@@ -91,7 +91,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
           }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
-              Swal.fire(`${sender} juga sayang banget sama ${nama}`).then(function () {
+              Swal.fire(`${sender} juga sayang pake bangeettt sama ${nama}`).then(function () {
                 Swal.fire({
                   title: 'Seberapa sayang emangnya?',
                   icon: 'question',
@@ -117,7 +117,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                       if (result.isConfirmed) {
                         Swal.fire(`Huhu iya ${sender} juga kangen ${nama} , makasihhh yaa`).then(function () {
                           Swal.fire('Terakhir deh sayang').then(function () {
-                            Swal.fire('Coba klik ikon hati di paling bawah dong')
+                            Swal.fire('Coba klik ikon lope di paling bawah dong')
                           })
                         })
                       } else if (result.isDenied) {
